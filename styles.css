@@ -1,21 +1,23 @@
 a{
-  font-family: sans-serif;
+  font-family: "Google Sans Display",sans-serif;
   float:left;
   font-size: 18px;
   display:block;
   display:inline;
   padding: 16px;
   margin: 10px;
-  color:#ffffff;
-  background-color: #B0B8B4FF;
-  border-radius: 30px;
+  margin-top: 25px;
+
+  color:#5196f0;
+  background-color: #9ef47b;
+  border-radius: 10px;
 }
 .alignright{
   float: right !important;
 
 }
 .backgroundcolor{
-  background-color: #184A45;
+  <-->#38da7e</-->;
 }
 nav{
   background-color: #184A45;
@@ -27,7 +29,7 @@ a:link{
   text-decoration: none;
 }
 a:hover{
-  background-color: #00008b;
+  background-color: #78bd63;
 }
 .active {
   background-color: #4CAF50;
@@ -47,12 +49,12 @@ h2{
 
 }
 body{
-  background-color: #184A45;
+  background-color: #1352b0;
   <-->green</-->
 }
 .intro{
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Comfortaa";
   font-size: 48px;
   color:#ffffff;
   margin:40px;
@@ -62,7 +64,7 @@ body{
   text-align: center;
   font-family: sans-serif;
   font-size: 36px;
-  color:#ffffff;
+  color:#FFFFFF;
 
 }
 .reee{
@@ -82,9 +84,27 @@ body{
   margin-right: auto;
 }
 .toplogo{
-  width:200px;
+  width:100px;
   display:block;
-  margin-left: auto;
+  margin-left: 0px;
   margin-right: auto;
   margin:none!important;
+}
+#icantcomeupwithaname{
+  list-style-type : none;
+  margin:0;
+
+  padding: 0;
+  background-color: #FFFFFF!important;
+  position:sticky !important;
+;
+}
+#cantcomeup{
+    background-color: #c3ffdf !important;
+      padding: 0!important;
+      margin-top:auto!important;
+      margin-bottom:auto!important;
+}
+whitebackground{
+  background-color: #afffb4;
 }
